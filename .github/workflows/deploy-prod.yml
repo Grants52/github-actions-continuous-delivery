@@ -51,8 +51,8 @@ jobs:
       - name: Download built artifact
         uses: actions/download-artifact@master
         with:
-        name: webpack artifacts
-        path: public
+          name: webpack artifacts
+          path: public
 
       - name: Build, Tag, Push
         uses: mattdavis0351/actions/docker-gpr@v1
